@@ -1,0 +1,39 @@
+name: ram_pipeline
+channels:
+  - defaults
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  # torch MUST stay at 2.5.1+cu121 on this GPU family.
+  # GPU is TITAN X Pascal, compute capability 6.1 (sm_61).
+  # torch 2.6+ drops Pascal support entirely and fails at the first
+  # kernel launch with cudaErrorNoKernelImageForDevice.
+  # sm_60 (present in 2.5.1's arch list) is binary-compatible with
+  # sm_61 hardware, which is why this version works.
+  # See docs/REPRODUCE.md section 3 for the verification command.
+  - pip
+  - pip:
+      - torch==2.5.1+cu121
+      - torchvision==0.20.1+cu121
+      - transformers==4.35.2
+      - sentence-transformers==2.7.0
+      - groundingdino==0.1.0        # editable install from source, see docs/REPRODUCE.md §4
+      - opencv-python-headless==4.13.0.92
+      - pillow==12.2.0
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - requests==2.34.1
+      - tqdm==4.67.3
+      - pycocotools==2.0.11
+      - supervision==0.28.0
+      - timm==0.4.12
+      - safetensors==0.7.0
+      - huggingface-hub==0.36.2
+      - ram==0.0.1                  # RAM++ tagger, legacy front end only
+      - addict==2.4.0               # groundingdino dependency
+      - yapf==0.43.0                # groundingdino dependency
+      - fairscale==0.4.4            # groundingdino dependency
+      - pycocoevalcap==1.2          # legacy evaluation front end
+      - ftfy==6.3.1                 # groundingdino / CLIP text preprocessing

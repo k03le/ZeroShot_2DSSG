@@ -1,0 +1,14 @@
+# Large / generated binaries — keep the repo text-only.
+# Exceptions carve out specific paths that must ship with the repo.
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+!data/upright_frames_17/**/*.png
+*.zip
+*.tgz
+*.tar.gz
+*.pt
+*.pth
+__pycache__/
+*.pyc

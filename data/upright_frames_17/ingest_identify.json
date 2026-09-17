@@ -1,0 +1,356 @@
+{
+  "flat_dir": "/data/mmc-user/outputs/3dssg_upright_v2",
+  "n": 17,
+  "n_ok": 17,
+  "k_values": [
+    -1
+  ],
+  "frames_per_scan": {
+    "5341b7bf-8a66-2cdd-8794-026113b7c312": 11,
+    "5630cfd8-12bf-2860-8773-e3dde9da2aff": 1,
+    "5341b7a5-8a66-2cdd-8751-70b98263cb8d": 3,
+    "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca": 2
+  },
+  "frames": [
+    {
+      "file": "frame-000006.color.jpg",
+      "frame_no": 6,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 56.3,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": 1,
+        "mae": 56.38
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000030.color.jpg",
+      "frame_no": 30,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 64.53,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": -1,
+        "mae": 64.61
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000041.color.jpg",
+      "frame_no": 41,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 56.07,
+      "runner_up": {
+        "scan": "5341b7a5-8a66-2cdd-8751-70b98263cb8d",
+        "k": -1,
+        "mae": 56.15
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000042.color.jpg",
+      "frame_no": 42,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7a5-8a66-2cdd-8751-70b98263cb8d",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 55.82,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": -1,
+        "mae": 55.9
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000075.color.jpg",
+      "frame_no": 75,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7a5-8a66-2cdd-8751-70b98263cb8d",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 53.11,
+      "runner_up": {
+        "scan": "5341b7a5-8a66-2cdd-8751-70b98263cb8d",
+        "k": 1,
+        "mae": 53.19
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000078.color.jpg",
+      "frame_no": 78,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7a5-8a66-2cdd-8751-70b98263cb8d",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 45.61,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": -1,
+        "mae": 45.7
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000110.color.jpg",
+      "frame_no": 110,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.07,
+      "margin": 64.28,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": 1,
+        "mae": 64.35
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000115.color.jpg",
+      "frame_no": 115,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.09,
+      "margin": 54.18,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": -1,
+        "mae": 54.27
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000117.color.jpg",
+      "frame_no": 117,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 54.17,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": -1,
+        "mae": 54.25
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000144.color.jpg",
+      "frame_no": 144,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 57.57,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": 1,
+        "mae": 57.65
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000171.color.jpg",
+      "frame_no": 171,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.07,
+      "margin": 70.38,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": 1,
+        "mae": 70.45
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000175.color.jpg",
+      "frame_no": 175,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 56.08,
+      "runner_up": {
+        "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+        "k": 1,
+        "mae": 56.16
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000178.color.jpg",
+      "frame_no": 178,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.07,
+      "margin": 48.18,
+      "runner_up": {
+        "scan": "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
+        "k": 1,
+        "mae": 48.25
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000182.color.jpg",
+      "frame_no": 182,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 60.21,
+      "runner_up": {
+        "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+        "k": 1,
+        "mae": 60.29
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000199.color.jpg",
+      "frame_no": 199,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 27.81,
+      "runner_up": {
+        "scan": "5341b7bf-8a66-2cdd-8794-026113b7c312",
+        "k": 1,
+        "mae": 27.89
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000238.color.jpg",
+      "frame_no": 238,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 58.82,
+      "runner_up": {
+        "scan": "5630cfd8-12bf-2860-8773-e3dde9da2aff",
+        "k": 1,
+        "mae": 58.9
+      },
+      "ok": true
+    },
+    {
+      "file": "frame-000446.color.jpg",
+      "frame_no": 446,
+      "size": [
+        540,
+        960
+      ],
+      "exif_orientation": 1,
+      "exif_verdict": "real pixel rotation",
+      "scan": "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
+      "k": -1,
+      "mae": 0.08,
+      "margin": 104.78,
+      "runner_up": {
+        "scan": "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
+        "k": 1,
+        "mae": 104.86
+      },
+      "ok": true
+    }
+  ]
+}
